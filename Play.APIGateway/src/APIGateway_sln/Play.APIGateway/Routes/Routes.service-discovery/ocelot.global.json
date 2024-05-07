@@ -1,0 +1,12 @@
+{
+  "GlobalConfiguration": {
+    "RequestIdKey": "OcRequestId",
+    "DownstreamScheme": "http",
+    "UseServiceDiscovery": true,
+    "ServiceDiscoveryProvider": {
+      "Host": "localhost",
+      "Port": 7241,
+      "Type": "Eureka"
+    }
+  }
+}

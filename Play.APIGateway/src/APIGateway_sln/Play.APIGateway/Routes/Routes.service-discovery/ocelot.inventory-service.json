@@ -1,0 +1,40 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/{everything}",
+      "DownstreamScheme": "http",
+      "UseServiceDiscovery": true,
+      "ServiceName": "SERVICE.INVENTORY",
+      "UpstreamPathTemplate": "/inventory/{everything}",
+      "SwaggerKey": "inventory",
+      "UpstreamHttpMethod": [
+        "GET",
+        "POST",
+        "PUT",
+        "DELETE"
+      ],
+      //-------Please uncomment following if you need--------//
+      "QoSOptions": {
+        "ExceptionsAllowedBeforeBreaking": 2, //Number of exceptions which are allowed before the circuit breaker is triggered.
+        "DurationOfBreak": 5000, //Duration in milliseconds for which the circuit breaker would remain open after been tripped.
+        "TimeoutValue": 2000 //Duration after which the request is considered as timedout.
+      }
+      //,
+      //"RateLimitOptions": {
+      //  "EnableRateLimiting": true, // Is Current Limiting Enabled
+      //  "Period": "5s", // Statistics period: 1 s, 5m, 1h, 1d   
+      //  "PeriodTimespan": 1, // How many seconds before the client can try again
+      //  "Limit": 1 // Maximum number of requests allowed in statistical time period
+      //},
+      //"FileCacheOptions": {
+      //  "TtlSeconds": 30,
+      //  "Region": "somename"
+      //},
+      //"LoadBalancerOptions": {
+      //  "Type": "LeastConnection"
+      //}
+
+      //----------------------------------------------------//
+    }
+  ]
+}

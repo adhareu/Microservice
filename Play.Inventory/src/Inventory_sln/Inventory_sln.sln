@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34601.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play.Inventory.Service", "Play.Inventory.Service\Play.Inventory.Service.csproj", "{AA71F63E-66FD-42D0-A52D-ED124AF15AD1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA71F63E-66FD-42D0-A52D-ED124AF15AD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA71F63E-66FD-42D0-A52D-ED124AF15AD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA71F63E-66FD-42D0-A52D-ED124AF15AD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA71F63E-66FD-42D0-A52D-ED124AF15AD1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73A4D5E6-6F0C-4C4F-9329-0A36E94FA809}
+	EndGlobalSection
+EndGlobal
